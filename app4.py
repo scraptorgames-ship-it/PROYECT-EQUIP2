@@ -20,12 +20,13 @@ DB_CONFIG = dict(host=os.getenv('NEZA_DB_HOST','127.0.0.1'), port=int(os.getenv(
                  user=os.getenv('NEZA_DB_USER','root'), password=os.getenv('NEZA_DB_PASSWORD',''),
                  charset='utf8mb4', use_unicode=True)
 # Cada elemento visual tiene su propia clave para personalización independiente.
+#FRIDA DANIELA MIRALES ENTZANA:modifique el color del boton 
 THEME = {
  'login_blue':'#19324D','login_white':'#FFFFFF','login_accent':'#A8D5D3','background':'#FFFFFF',
  'header':'#19324D','sidebar':'#19324D','sidebar_text':'#FFFFFF','sidebar_hover':'#28516F',
  'title':'#19324D','subtitle':'#64748B','card_present_bg':'#E7F5EC','card_present_fg':'#207547',
  'card_absence_bg':'#FBE9E9','card_absence_fg':'#B42318','card_late_bg':'#FFF3D9','card_late_fg':'#946200',
- 'card_neutral_bg':'#FFFFFF','card_neutral_fg':'#19324D','button_primary_bg':'#167D8D',
+ 'card_neutral_bg':'#FFFFFF','card_neutral_fg':'#19324D','button_primary_bg':'#2A8AA0',
 #Modifique el color del boton -Beatriz Adriana Tolentino Teco
  'button_primary_bg':'#19324D', 
  'button_primary_fg':'#FFFFFF','button_secondary_bg':'#E5F2F8','button_secondary_fg':'#19324D',
